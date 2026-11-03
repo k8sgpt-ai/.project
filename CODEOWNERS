@@ -1,3 +1,4 @@
 # CODEOWNERS for .project metadata repository
-# Changes to project metadata require maintainer review.
-* @AlexsJones @thschue 
+# Changes to project metadata require review from an active maintainer.
+# Emeritus maintainers are recorded in maintainers.yaml and are not code owners.
+* @AlexsJones @AnaisUrlichs 

@@ -31,7 +31,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: cncf/automation/.github/actions/validate-maintainers@95d25b12337a14e4a74f690c856f6903584e839e
+      - uses: cncf/automation/.github/actions/validate-maintainers@dbb3b5cccbeb8518371cf963cf02d6501adb6693
         with:
           maintainers_file: 'maintainers.yaml'
           verify_maintainers: 'true'
