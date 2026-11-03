@@ -9,7 +9,7 @@ slug: "k8sgpt"
 name: "K8sGPT"
 description: "Giving Kubernetes Superpowers to everyone"
 type: "project"
-project_lead: "AlexsJones" # TODO: AUTO-DETECTED — please verify
+project_lead: "AlexsJones"
 # TODO: Set CNCF Slack channel(s)
 # slack_channels:
 #   - name: "#k8sgpt"
@@ -42,13 +42,43 @@ security:
   policy:
     path: "https://github.com/k8sgpt-ai/k8sgpt/blob/main/SECURITY.md"
   contact:
+    email: "contact@k8sgpt.ai"
     advisory_url: "https://github.com/k8sgpt-ai/k8sgpt/security/advisories/new"
 
 governance:
   contributing:
     path: "https://github.com/k8sgpt-ai/k8sgpt/blob/main/CONTRIBUTING.md"
+  codeowners:
+    path: "https://github.com/k8sgpt-ai/k8sgpt/blob/main/.github/CODEOWNERS"
+  governance_doc:
+    path: "https://github.com/k8sgpt-ai/k8sgpt/blob/main/GOVERNANCE.md"
+  vendor_neutrality_statement:
+    path: "https://github.com/k8sgpt-ai/k8sgpt/blob/main/GOVERNANCE.md#vendor-neutrality"
+  decision_making_process:
+    path: "https://github.com/k8sgpt-ai/k8sgpt/blob/main/GOVERNANCE.md#decision-making"
+  roles_and_teams:
+    path: "https://github.com/k8sgpt-ai/community/blob/main/community-membership.md#roles"
   code_of_conduct:
     path: "https://github.com/k8sgpt-ai/k8sgpt/blob/main/CODE_OF_CONDUCT.md"
+  sub_project_list:
+    path: "https://github.com/k8sgpt-ai/community/blob/main/subprojects.md"
+  sub_project_docs:
+    path: "https://github.com/k8sgpt-ai/k8sgpt/blob/main/GOVERNANCE.md#subproject-governance"
+  contributor_ladder:
+    path: "https://github.com/k8sgpt-ai/community/blob/main/community-membership.md"
+  change_process:
+    path: "https://github.com/k8sgpt-ai/k8sgpt/blob/main/CONTRIBUTING.md"
+  comms_channels:
+    path: "https://github.com/k8sgpt-ai/k8sgpt/blob/main/GOVERNANCE.md#community-engagement"
+  contributor_guide:
+    path: "https://github.com/k8sgpt-ai/k8sgpt/blob/main/CONTRIBUTING.md"
+  maintainer_lifecycle:
+    onboarding_doc:
+      path: "https://github.com/k8sgpt-ai/k8sgpt/blob/main/GOVERNANCE.md#becoming-a-maintainer"
+    progression_ladder:
+      path: "https://github.com/k8sgpt-ai/community/blob/main/community-membership.md"
+    offboarding_policy:
+      path: "https://github.com/k8sgpt-ai/community/blob/main/community-membership.md#inactive-members--emeritus"
 
 legal:
   license:
