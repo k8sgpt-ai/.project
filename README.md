@@ -26,3 +26,6 @@ The validate workflow will check schema correctness and block merge if validatio
 - [`.project` documentation](https://github.com/cncf/automation/tree/main/utilities/dot-project)
 - [Schema reference](https://github.com/cncf/automation/blob/main/utilities/dot-project/SCHEMA.md)
 - [CNCF Automation repository](https://github.com/cncf/automation)
+- [Governance review](https://github.com/k8sgpt-ai/k8sgpt/blob/main/docs/governance-review.md) (TOC self-assessment; schema 1.0.0 has no `project.yaml` field for it)
+- [Community meeting](https://github.com/k8sgpt-ai/k8sgpt/blob/main/GOVERNANCE.md#community-meeting) (`governance.community_calendar`)
+- [`#k8sgpt` on CNCF Slack](https://slack.cncf.io) (`slack_channels`)
