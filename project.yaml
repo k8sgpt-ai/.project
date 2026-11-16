@@ -1,7 +1,6 @@
 # .project metadata for K8sGPT
 # Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
 
-# TODO: Set slack_channels
 # TODO: Add package_managers if distributed via registries
 
 schema_version: "1.0.0"
@@ -10,10 +9,12 @@ name: "K8sGPT"
 description: "Giving Kubernetes Superpowers to everyone"
 type: "project"
 project_lead: "AlexsJones"
-# TODO: Set CNCF Slack channel(s)
-# slack_channels:
-#   - name: "#k8sgpt"
-#     primary: true
+# Channel linked from the k8sgpt README: `#k8sgpt` on CNCF Slack.
+slack_channels:
+  - name: "#k8sgpt"
+    workspace: "cncf"
+    link: "https://slack.cncf.io"
+    primary: true
 
 maturity_log:
   - phase: "sandbox"
@@ -52,6 +53,8 @@ governance:
     path: "https://github.com/k8sgpt-ai/k8sgpt/blob/main/.github/CODEOWNERS"
   governance_doc:
     path: "https://github.com/k8sgpt-ai/k8sgpt/blob/main/GOVERNANCE.md"
+  # TOC governance review (self-assessment). Schema 1.0.0 has no field for this
+  # document, so it is not a PathRef. https://github.com/k8sgpt-ai/k8sgpt/blob/main/docs/governance-review.md
   vendor_neutrality_statement:
     path: "https://github.com/k8sgpt-ai/k8sgpt/blob/main/GOVERNANCE.md#vendor-neutrality"
   decision_making_process:
@@ -70,6 +73,9 @@ governance:
     path: "https://github.com/k8sgpt-ai/k8sgpt/blob/main/CONTRIBUTING.md"
   comms_channels:
     path: "https://github.com/k8sgpt-ai/k8sgpt/blob/main/GOVERNANCE.md#community-engagement"
+  # Schedule and join link live in GOVERNANCE.md; do not copy them here.
+  community_calendar:
+    path: "https://github.com/k8sgpt-ai/k8sgpt/blob/main/GOVERNANCE.md#community-meeting"
   contributor_guide:
     path: "https://github.com/k8sgpt-ai/k8sgpt/blob/main/CONTRIBUTING.md"
   maintainer_lifecycle:
