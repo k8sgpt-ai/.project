@@ -25,7 +25,7 @@ repositories:
 
 website: "https://www.k8sgpt.ai"
 
-artwork: "https://landscape.cncf.io/logos/k8sgpt.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/k8sgpt"
 
 adopters:
   path: "https://github.com/k8sgpt-ai/k8sgpt/blob/main/ADOPTERS.md"
